@@ -25,7 +25,6 @@ The examples included are listed below. It is recommended to understand
 
 ## Reference 
 
-Securing software by enforcing data-flow integrity
 [Securing software by enforcing data-flow integrity](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/11/dfiOSDI.pdf)
 
 ## How to build
