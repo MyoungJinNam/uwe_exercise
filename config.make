@@ -1,0 +1,12 @@
+override CC = gcc 
+override CXX = g++ 
+override CFLAGS = -O2 
+override CXXFLAGS = -O2 
+override LFLAGS = 
+override COMPILER_FAMILY = gcc 
+override BUILD = build
+override OBJDIR = build/objects
+override BINDIR = build/bin
+override LIBDIR = build/lib
+override DEBUG = 0
+override COMPILER_INCLUDE_DIR = 
