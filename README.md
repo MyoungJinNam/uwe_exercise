@@ -9,12 +9,12 @@ All sources are located under the [src](src/) directory and are further grouped
 into folders including an unsafe reference program ([reference](src/reference)) and task program ([exercise](src/exercise)). 
 
 The examples included are listed below. It is recommended to understand
-`corrupted.c` for a task, which is to complete `instrumented.c`([link](src/exercise/instrumented.c)):
+the reference program (`corrupted.c`) for a task, which is to complete `instrumented.c`([link](src/exercise/instrumented.c)):
 
  - `corrupted.c`: this unsafe reference code demonstrates vulnerabilities - 
    local variables and return address are corrupted by buffer overflows.
    As a result, the control flow of the program is affected by corrupted
-   control data (return address) and non-control data (local variables).  
+   control data (a return address) and non-control data (local variables).  
  - `instrumented.c`: this file contains an incomplete instrumented version
     of `corrupted.c`, which students should complete. See the comments 
     in the file for more details of the task.
