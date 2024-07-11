@@ -15,9 +15,9 @@ The examples included are listed below. It is recommended to understand
  - `instrumented.c`: this file contains an incomplete instrumented version
     of `corrupted.c`, which students should complete. See the comments 
     in the file for more details of the task.
- - `libutil.c`: this is for shared library, which both corrupted.c and
-    instrumented.c use. Students do not need to touch this file.
- - `foo.txt`: an input file to corrupted.c and instrumented.c, which contains
+ - `libutil.c`: this is for shared library, which both `corrupted.c` and
+    `instrumented.c` use. Students do not need to touch this file.
+ - `foo.txt`: an input file to `corrupted.c` and `instrumented.c`, which contains
     a string.
 
 ## How to build
@@ -35,8 +35,8 @@ The main entry point for the build is the `makefile` in the project root.
 All sources are located under the `src` directory and are further grouped
 into folders including an unsafe reference program and task program. 
 
-Note that students must enable "exercise.make" in the `makefile` to 
-build the exercise (instrumented.c). 
+Note that students must enable `exercise.make` in the `makefile` to 
+build the exercise (`instrumented.c`). 
 
 To test, use:
 
