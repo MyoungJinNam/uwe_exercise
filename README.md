@@ -5,6 +5,9 @@ to practice software security, particularly dynamic program analysis
 and data flow integrity (DFI). The examples do not require and 
 support static analysis, which is commonly adopted for DFI.
 
+All sources are located under the [src](src/) directory and are further grouped
+into folders including an unsafe reference program and task program. 
+
 The examples included are listed below. It is recommended to understand
 `corrupted.c` for a task, which is to complete `instrumented.c`:
 
@@ -20,6 +23,11 @@ The examples included are listed below. It is recommended to understand
  - `foo.txt`: an input file to `corrupted.c` and `instrumented.c`, which contains
     a string.
 
+## Reference 
+
+Securing software by enforcing data-flow integrity
+[Securing software by enforcing data-flow integrity](https://www.microsoft.com/en-us/research/wp-content/uploads/2006/11/dfiOSDI.pdf)
+
 ## How to build
 
 Prerequisites:
@@ -32,9 +40,6 @@ To compile and link the examples, run make:
     make
 
 The main entry point for the build is the `makefile` in the project root.
-All sources are located under the `src` directory and are further grouped
-into folders including an unsafe reference program and task program. 
-
 Note that students must enable `exercise.make` in the `makefile` to 
 build the exercise (`instrumented.c`). 
 
