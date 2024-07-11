@@ -1,19 +1,21 @@
 # UWE exercise
 
-This repository contains a very simple example program that aims 
+This repository contains naive example programs that aim 
 to practice software security, particularly dynamic program analysis 
-and data flow integrity (DFI). This example does not require and 
+and data flow integrity (DFI). The examples do not require and 
 support static analysis, which is commonly adopted for DFI.
 
 The examples included are listed below. It is recommended to understand
-`corrupted.c` to complete `instrumented.c` (task):
+`corrupted.c` for a task, which is to complete `instrumented.c`:
 
  - `corrupted.c`: this unsafe reference code demonstrates vulnerabilities - 
-   local variables and return address are corrupted by buffer overflow. 
+   local variables and return address are corrupted by buffer overflows.
+   As a result, the control flow of the program is affected by corrupted
+   control data (return address) and non-control data (local variables).  
  - `instrumented.c`: this file contains an incomplete instrumented version
     of `corrupted.c`, which students should complete. See the comments 
-    in the file for details of the task.
- - `libutil.c`: this is for a shared library, which both corrupted.c and
+    in the file for more details of the task.
+ - `libutil.c`: this is for shared library, which both corrupted.c and
     instrumented.c use. Students do not need to touch this file.
  - `foo.txt`: an input file to corrupted.c and instrumented.c, which contains
     a string.
