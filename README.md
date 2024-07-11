@@ -39,7 +39,7 @@ To compile and link the examples, run make:
     make
 
 The main entry point for the build is the `makefile` in the project root.
-Note that students must enable `exercise.make` in the `makefile` to 
+Note that students must enable exercise.make in the `makefile` (see the [line](https://github.com/MyoungJinNam/uwe_exercise/blob/e04772dc04f5c0dc36f2c353c3d5bddb2ff3b55b/makefile#L26)) to 
 build the exercise (`instrumented.c`). 
 
 To test, use:
