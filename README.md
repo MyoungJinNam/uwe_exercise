@@ -6,10 +6,10 @@ and data flow integrity (DFI). The examples do not require and
 support static analysis, which is commonly adopted for DFI.
 
 All sources are located under the [src](src/) directory and are further grouped
-into folders including an unsafe reference program and task program. 
+into folders including an unsafe reference program ([reference](src/reference)) and task program ([exercise](src/exercise)). 
 
 The examples included are listed below. It is recommended to understand
-`corrupted.c` for a task, which is to complete `instrumented.c`:
+`corrupted.c` for a task, which is to complete `instrumented.c`([link](src/exercise/instrumented.c)):
 
  - `corrupted.c`: this unsafe reference code demonstrates vulnerabilities - 
    local variables and return address are corrupted by buffer overflows.
