@@ -50,7 +50,7 @@ To test, use:
 
 All the example applications are intended to be used on Linux userspace. 
 A reference program (`dfi`) will be created under build/bin folder.
-The task program will be created in the same folder (`exercise`), once
+The task program (`exercise`) will be created in the same folder, once
 the code being completed correctly.
 
 
